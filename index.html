@@ -37,11 +37,11 @@
 
         <div class="card">
 
-            <input type="text" placeholder="Enter your full name">
-            <input type="email" placeholder="your.email@example.com">
+            <input type="text" placeholder="Enter your full name" id="fullName">
+            <input type="email" placeholder="your.email@example.com" id="email">
 
-            <input type="number" placeholder="Enter CNIC number">
-            <input type="number" placeholder="Enter phone number">
+            <input type="number" placeholder="Enter CNIC number" id="cnic">
+            <input type="number" placeholder="Enter phone number" id="number">
 
 
 
@@ -58,7 +58,7 @@
 
         <div class="card">
 
-            <select>
+            <select id="course">
                 <option disabled selected>Select course</option>
                 <option>Modern Web Application Development</option>
                 <option>AI & Game Creators</option>
@@ -67,8 +67,8 @@
 
 
 
-            <select>
-                <option disabled selected>Select Campus</option>
+            <select id="campus">
+                <option disabled selected>Select campus</option>
                 <option>Bahadurabad Head Office Campus</option>
                 <option>Saylani TITAN Zamzama Campus</option>
                 <option>Numaish Campus</option>
@@ -87,98 +87,28 @@
 
         <div class="card3">
 
-            <input type="file">
+            <input type="file" id="image">
 
         </div>
 
-        <button>Submit</button>
+        <button onclick="submitHandler()">Submit</button>
 
 
 
     </div>
 
 
-    <div id="generator-id-card">
-
-        <div class="card-header">
-            <h2>Student ID Card</h2>
-            <p>Saylani Mass I.T. Training / Institute SMIT</p>
-        </div>
-
-        <div class="profile-section">
-            <img src=${data.profileImg} alt="Student Profile">
-        </div>
-
-        <div class="info">
-
-            <div class="info-row">
-                <span class="label">Full Name</span>
-                <span class="value">${data.fullName}</span>
-            </div>
-
-            <div class="info-row">
-                <span class="label">CNIC</span>
-                <span class="value">${data.cnic}</span>
-            </div>
-
-            <div class="info-row">
-                <span class="label">Course</span>
-                <span class="value">${data.course}</span>
-            </div>
-
-            <div class="info-row">
-                <span class="label">Campus</span>
-                <span class="value">${data.campus}</span>
-            </div>
-
-            <div class="info-row">
-                <span class="label">Roll Number</span>
-                <span class="value">${data.rollNum}</span>
-            </div>
-
-        </div>
-
+    <div id="cardParent">
+        
     </div>
-
-    <div class="generator-card-text">
-        <h3>Instructions:</h3>
-
-        <p>Please colour print of this Admit/ID card</p>
-
-        <p>Attestation of ID/Admit Card is extremely mandatory from SMIT</p>
-
-        <p>No student will be allowed to enter in Entry Test without attestation of Admit/ID Card</p>
-
-        <p>Bring CNIC and Last qualification Marksheet/Certification. (both original) at the time of Attestation</p>
-
-        <div class="card-or-text">
-
-            <p> Address: Gulshan Campus (2nd Floor, Mumtaz Mobile Mall, Gulshan Chowrangi)</p>
-
-            <p>Address: Zaitoon Ashraf IT Park (Baloch Colony Rd, Karachi Administration Employees Housing Society Block
-                6
-                KAECHS) Karachi, Pakistan</p>
-
-            <p>Address: SMIT Head Office Bahadurabad</p>
-
-            <p>Office A-25, Head, Grappetite Chowrangi, 4rt floor, Karachi, 75300</p>
-
-            <p>Address: SMIT Malir Campus (Gohar Green City Bagh e Ibrahim Society Shah Faisal Colony Shah Faisal Town)
-                75120, Pakistan</p>
-
-            <p>Address: SMIT Aliabad Female Campus</p>
-
-            <p>Hussainabad Aliabad Federal B-Area Block 2, Karachi, Pakistan</p>
-
-            <p> Sector 5 D, New Karachi Town, Karachi, Pakistan </p>
-        </div>
-
-    </div>
-
     <br>
     <br>
     <br>
+
+
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="app.js"></script>
 
 </html>
