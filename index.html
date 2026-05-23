@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Id Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <i class="fa-solid fa-graduation-cap"></i><i class="fa-solid fa-chevron-right"></i><span> Enroll Now</span>
+        <h1>Registration Form</h1>
+
+        <p>Start your journey towards excellence. Fill out the form to apply for our courses</p>
+
+
+    </div>
+
+    <div class="contanir">
+
+        <div class="heading">
+
+            <i class="fa-regular fa-user"></i>
+            <h3>Personal Information</h3>
+
+        </div>
+
+        <div class="card">
+
+            <input type="text" placeholder="Enter your full name">
+            <input type="email" placeholder="your.email@example.com">
+
+            <input type="number" placeholder="Enter CNIC number">
+            <input type="number" placeholder="Enter phone number">
+
+
+
+        </div>
+
+
+
+        <div class="heading">
+
+            <i class="fa-regular fa-user"></i>
+            <h3>Course Details</h3>
+
+        </div>
+
+        <div class="card">
+
+            <select>
+                <option disabled selected>Select course</option>
+                <option>Modern Web Application Development</option>
+                <option>AI & Game Creators</option>
+                <option>Full Stack Foundations for Teens with JavaScript & Python</option>
+            </select>
+
+
+
+            <select>
+                <option disabled selected>Select Campus</option>
+                <option>Bahadurabad Head Office Campus</option>
+                <option>Saylani TITAN Zamzama Campus</option>
+                <option>Numaish Campus</option>
+                <option>Saylani Hajiyani Sakeena IT Campus</option>
+            </select>
+
+        </div>
+
+
+        <div class="heading">
+
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            <h3>Upload Picture</h3>
+
+        </div>
+
+        <div class="card3">
+
+            <input type="file">
+
+        </div>
+
+        <button>Submit</button>
+
+
+
+    </div>
+
+
+    <div id="generator-id-card">
+
+        <div class="card-header">
+            <h2>Student ID Card</h2>
+            <p>Saylani Mass I.T. Training / Institute SMIT</p>
+        </div>
+
+        <div class="profile-section">
+            <img src=${data.profileImg} alt="Student Profile">
+        </div>
+
+        <div class="info">
+
+            <div class="info-row">
+                <span class="label">Full Name</span>
+                <span class="value">${data.fullName}</span>
+            </div>
+
+            <div class="info-row">
+                <span class="label">CNIC</span>
+                <span class="value">${data.cnic}</span>
+            </div>
+
+            <div class="info-row">
+                <span class="label">Course</span>
+                <span class="value">${data.course}</span>
+            </div>
+
+            <div class="info-row">
+                <span class="label">Campus</span>
+                <span class="value">${data.campus}</span>
+            </div>
+
+            <div class="info-row">
+                <span class="label">Roll Number</span>
+                <span class="value">${data.rollNum}</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="generator-card-text">
+        <h3>Instructions:</h3>
+
+        <p>Please colour print of this Admit/ID card</p>
+
+        <p>Attestation of ID/Admit Card is extremely mandatory from SMIT</p>
+
+        <p>No student will be allowed to enter in Entry Test without attestation of Admit/ID Card</p>
+
+        <p>Bring CNIC and Last qualification Marksheet/Certification. (both original) at the time of Attestation</p>
+
+        <div class="card-or-text">
+
+            <p> Address: Gulshan Campus (2nd Floor, Mumtaz Mobile Mall, Gulshan Chowrangi)</p>
+
+            <p>Address: Zaitoon Ashraf IT Park (Baloch Colony Rd, Karachi Administration Employees Housing Society Block
+                6
+                KAECHS) Karachi, Pakistan</p>
+
+            <p>Address: SMIT Head Office Bahadurabad</p>
+
+            <p>Office A-25, Head, Grappetite Chowrangi, 4rt floor, Karachi, 75300</p>
+
+            <p>Address: SMIT Malir Campus (Gohar Green City Bagh e Ibrahim Society Shah Faisal Colony Shah Faisal Town)
+                75120, Pakistan</p>
+
+            <p>Address: SMIT Aliabad Female Campus</p>
+
+            <p>Hussainabad Aliabad Federal B-Area Block 2, Karachi, Pakistan</p>
+
+            <p> Sector 5 D, New Karachi Town, Karachi, Pakistan </p>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+</body>
+<script src="app.js"></script>
+
+</html>

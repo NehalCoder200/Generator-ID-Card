@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #F7F8FC;
+}
+
+
+
+.header {
+    color: white;
+    padding: 45px 120px;
+    background: linear-gradient(to right, #0069D0, rgba(109, 168, 0, 0.71));
+    ;
+
+}
+
+.header i {
+    font-size: 12px;
+    padding: 0 15px;
+    color: rgb(200, 198, 198);
+}
+
+.header .fa-graduation-cap {
+    font-size: 15px;
+    color: white;
+}
+
+.header span {
+    font-weight: 700;
+}
+
+.header h1 {
+    font-size: 52px;
+    margin: 20px 0;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.contanir {
+    margin: 40px 0;
+    /* background-color: aqua; */
+    padding: 0 120px;
+}
+
+.heading {
+    display: flex;
+    padding-left: 24px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.heading i {
+    font-size: 19px;
+    color: #0069D0;
+    margin-right: 5px;
+}
+
+.heading h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.card {
+    /* width: 1800px; */
+    /* background-color: blue; */
+    display: flex;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+
+.card input,
+select {
+    background-color: #F7F8FC;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    outline: none;
+    border: 2px solid #D1D5DB;
+    width: 49%;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.card3 {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border: 2px dashed #D1D5DB;
+}
+
+.contanir button {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #0069D0;
+    color: white;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+#generator-id-card {
+    margin: 0 auto;
+    width: 350px;
+    height: 100%;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid #0069D0;
+}
+
+.card-header {
+    background: #0069D0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-header h2 {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.card-header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.profile-section {
+    text-align: center;
+    padding: 10px;
+}
+
+.profile-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #0069D0;
+    object-fit: cover;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info-row {
+    margin-bottom: 5px;
+    padding: 10px;
+    background: #f3f4f6;
+    border-radius: 8px;
+}
+
+.label {
+    font-weight: bold;
+    color: #0069D0;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.value {
+    color: #333;
+    font-size: 15px;
+}
+
+.btn {
+    background: #0069D0 !important;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+.generator-card-text {
+    padding: 0 120px;
+    margin-top: 50px;
+}
+
+.generator-card-text h3 {
+    color: red;
+    margin-bottom: 16px;
+}
+
+.generator-card-text>p {
+    margin-bottom: 18px;
+}
